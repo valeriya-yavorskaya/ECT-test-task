@@ -1,7 +1,7 @@
-<p>repeater works!</p>
 <ng-container
+  *ngFor="let item of option"
   [ngTemplateOutlet]="template"
   [ngTemplateOutletContext]=" {
-    data: this.option
+    item: item
   }"
 ></ng-container>

@@ -1,5 +1,5 @@
 <repeater [option]='data'>
-  <ng-template let-data="data">
-    <div *ngFor="let item of data">{{ item.name }}</div>
+  <ng-template let-item="item">
+    <div>{{ item.name }}</div>
   </ng-template>
 </repeater>
