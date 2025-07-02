@@ -5,7 +5,8 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   selector: 'app-angular-tasks',
   imports: [RouterLink, RouterOutlet],
   templateUrl: './angular-tasks.html',
-  styleUrl: './angular-tasks.scss'
+  styleUrl: './angular-tasks.scss',
+  standalone: true,
 })
 export class AngularTasks {
 
