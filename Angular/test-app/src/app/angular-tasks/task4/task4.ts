@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CustomPipe, Item } from '../../custom-pipe-pipe';
+import { CustomPipe, Item } from './custom-pipe/custom-pipe';
 import { CommonModule } from '@angular/common';
 
 @Component({
