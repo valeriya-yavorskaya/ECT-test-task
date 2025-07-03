@@ -1,6 +1,9 @@
-<div class="task-list">
-  <a routerLink="task4">Task 4</a>
-  <a routerLink="task5">Task 5</a>
-</div>
+<ul class="task-list">
+  <li><a routerLink="task4" class="task-list__item" routerLinkActive="task-list__item--active">Task 4</a></li>
+  <li><a routerLink="task5" class="task-list__item" routerLinkActive="task-list__item--active">Task 5</a></li>
+</ul>
 
-<router-outlet />
+<div class="output">
+  <p>Output</p>
+  <router-outlet />
+</div>
